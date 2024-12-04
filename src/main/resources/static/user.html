@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Кабинет пользователя</title>
+</head>
+<body>
+<h1>Кабинет пользователя</h1>
+<script>
+    let currentDateTime = new Date();
+    document.write("Текущая дата и время: " + currentDateTime);
+</script>
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="image" required>
+    <button type="submit">Загрузить изображение</button>
+</form>
+<a href="index.html">Выход</a>
+</body>
+</html>
